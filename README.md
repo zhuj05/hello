@@ -1,5 +1,5 @@
 # 個人網站
-<p> Copyright © 2025 <a href="https://github.com/zhu7055">jiayi-zhu</a></p>
+<p> Copyright © 2025 <a href="https://github.com/zhuj05">jiayi-zhu</a></p>
 
 ## 簡介
 本網站旨在展示我作為軟體開發工程師的技能、學術背景、專案經驗以及所獲證書。
@@ -19,7 +19,7 @@
 ## 如何查看網站
 您可以直接點擊此連結，在線瀏覽
 1.  我的網站：
-https://zhu7055.github.io/hello/form.html
+https://zhuj055.github.io/hello/form.html
 2.  個人作品:
 https://github.com/zhu7055/Personal_Project
 
