@@ -1,13 +1,13 @@
 version: 2
 updates:
-  # 監控 GitHub Actions 升級
-  - package-ecosystem: "github-actions"
-    directory: "/"
+  # 1. 監控後端 Python 套件 (位於 /backend 目錄)
+  - package-ecosystem: "pip"
+    directory: "/backend"
     schedule:
       interval: "weekly"
 
-  # 監控 Python 套件升級
-  - package-ecosystem: "pip"
-    directory: "/"
+  # 2. 監控前端 Node.js 套件 (位於 /frontend 目錄)
+  - package-ecosystem: "npm"
+    directory: "/frontend"
     schedule:
       interval: "weekly"
