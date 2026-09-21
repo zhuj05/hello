@@ -1,0 +1,13 @@
+version: 2
+updates:
+  # 監控 GitHub Actions 升級
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+
+  # 監控 Python 套件升級
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
